@@ -1,0 +1,21 @@
+{
+	"files": {
+		"LESS/bolts.less": {
+			"engines": [
+				{
+					"compiler": "less",
+					"output": "../../bolts.css",
+					"options": {
+						"compress": false,
+						"ieCompat": false,
+						"strictMath": false,
+						"strictUnits": false,
+						"javascriptEnabled": false,
+						"sourcemap": true
+					}
+				}
+			],
+			"sources": []
+		}
+	}
+}
