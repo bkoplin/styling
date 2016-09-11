@@ -385,12 +385,8 @@
     border-radius: 0
 }
 
-#transparency-tool * {
-    font-family: Roboto Condensed;
-    font-size: 14.5px;
-}
-
 #transparency-tool {
+  font-family: Roboto Condensed;
     font-size: 14.5px;
 }
 
