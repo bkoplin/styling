@@ -70,16 +70,14 @@
     border-bottom-width: thin;
     border-bottom-style: solid;
     border-bottom-color: #337AB7;
-    text-transform: uppercase;
     font-weight: lighter;
 }
 
 .section_red {
-    color: #337AB7;
+    color: #a94442;
     border-bottom-width: thin;
     border-bottom-style: solid;
-    border-bottom-color: #337AB7;
-    text-transform: uppercase;
+    border-bottom-color: #a94442;
     font-weight: lighter;
 }
 
