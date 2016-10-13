@@ -65,16 +65,22 @@
     padding-bottom: 0px !important;
 }
 
-h1.physician {
-/*     color: #337AB7; */
-    text-align: center;
+.section_blue {
+    color: #337AB7
     border-bottom-width: thin;
     border-bottom-style: solid;
-/*     border-bottom-color: #337AB7; */
-    font-size: 2.5em;
+    border-bottom-color: #337AB7;
     text-transform: uppercase;
     font-weight: lighter;
-    padding-top: 15px;
+}
+
+.section_red {
+    color: #337AB7;
+    border-bottom-width: thin;
+    border-bottom-style: solid;
+    border-bottom-color: #337AB7;
+    text-transform: uppercase;
+    font-weight: lighter;
 }
 
 h1.sub-section {
