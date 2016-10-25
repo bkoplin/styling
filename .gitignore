@@ -2,7 +2,6 @@
 .DS_Store
 
 geoJSON/node_modules/
-geoJSON/US Census Bureau Files
-geoJSON/Natural Earth Files
+geoJSON/build
 
 geoJSON/TIGER Shapefiles Reference.pdf
