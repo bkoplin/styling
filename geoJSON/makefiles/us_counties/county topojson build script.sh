@@ -12,7 +12,7 @@
 
 # Command to run rule:
 cd /Users/benjaminkoplin/Documents/Github/styling/geoJSON/makefiles/us_counties
-make /Users/benjaminkoplin/Documents/Github/styling/geoJSON/dist/counties.json
+make /Users/benjaminkoplin/Documents/Github/styling/geoJSON/dist/2016_counties75.json
 # /Users/benjaminkoplin/Documents/Github/styling/geoJSON/node_modules/.bin/topojson \
 # 		-o /Users/benjaminkoplin/Documents/Github/styling/geoJSON/dist/counties.json \
 # 		--simplify=.5 \
