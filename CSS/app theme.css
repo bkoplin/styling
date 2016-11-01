@@ -238,10 +238,16 @@ loki-sitenavigation .subNavigation, .subNavigation {
 }
 
 .buttonBar .btn-default:hover, .buttonBar .btn-default:focus {
-    background: linear-gradient(#c90c00, #DD2720);
-    background-color: #DD2720;
+    background-color: #c90c00;
+    border-color: #900000;
     color: white;
-    border-color: none;
+
+}
+.buttonBar .btn-default[disabled] {
+    background-color: #e0e0e0;
+    border-color: #ccc;
+    color: white;
+
 }
 
 .buttonBar .btn-default a {
@@ -257,17 +263,15 @@ loki-sitenavigation .subNavigation, .subNavigation {
 /*old list page (YUI)*/
 
 .buttonBar .btn-default {
-    background-color: #c90c00;
+    background-color: #DD2720;
+    border-color: #a30000;
     color: white;
-    background-image: linear-gradient(#DD2720, #c90c00);
-    background-image: -webkit-linear-gradient(#DD2720, #c90c00);
-    border: none;
-    text-shadow: none;
 }
 
 .buttonBar .nav-pills>li.active>a, .buttonBar .nav-pills>li.active>a:focus, .buttonBar .nav-pills>li.active>a:hover {
-    background-image: linear-gradient(#DD2720, #c90c00);
-    background-image: -webkit-linear-gradient(#DD2720, #c90c00);
+  color: white;
+  background-color: #DD2720;
+  border-color: #a30000;
 }
 
 .buttonBar .nav>li>a {
@@ -281,18 +285,16 @@ loki-sitenavigation .subNavigation, .subNavigation {
 
 .btn-primary {
     color: white;
-    background-color: #c90c00;
-    background-image: linear-gradient(#DD2720, #c90c00);
-    background-image: -webkit-linear-gradient(#DD2720, #c90c00);
-    border: none;
+    background-color: #DD2720;
+    border-color: #a30000;
     text-shadow: none;
 }
 
 .btn-primary:hover, .btn-primary:focus {
-    background: linear-gradient(#c90c00, #DD2720);
-    background-color: #DD2720;
+    background-color: #c90c00;
+    border-color: #900000;
     color: white;
-    border-color: none;
+
 }
 
 .btn-primary a {
