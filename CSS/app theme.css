@@ -1,0 +1,419 @@
+/* App logo size/placement, tab margin */
+
+.siteNavigation {
+    margin-top: 5px;
+}
+
+.siteNavigation .appLogo {
+    height: 65px;
+    width: 330px;
+    margin: 20px 18px 0 0;
+}
+
+.siteNavigation .tabListPanel {
+    margin-top: 45px;
+}
+
+
+/* App logo size/placement, tab margin */
+
+.siteNavigation .appLogo {
+    height: 65px;
+    width: 330px;
+    margin: 20px 18px 0 0;
+}
+
+.siteNavigation .tabListPanel {
+    margin-top: 45px;
+}
+
+
+/*Button bar*/
+
+
+/*
+.buttonBar [class^="icon-"],
+.buttonBar [class*=" icon-"] { font-size:14px; }
+.buttonBar [class^="icon-list"],
+.buttonBar [class*=" icon-list"] { font-size:18px; }
+*/
+
+
+/*Visualizations*/
+
+.bar {
+    fill: steelblue;
+}
+
+.bar:hover {
+    fill: brown;
+}
+
+.axis {
+    font: 10px sans-serif;
+}
+
+.axis path, .axis line {
+    fill: none;
+    stroke: #000;
+    shape-rendering: crispEdges;
+}
+
+.x.axis path {
+    display: none;
+}
+
+
+/* App Nav tabs config */
+
+.siteNavigation #home a {
+    padding-top: 6px;
+    padding-bottom: 4px;
+}
+
+#home a:hover, #home a {
+    padding-left: 0px;
+    /*color:#333; */
+    border: 0px;
+    margin-left: 0px;
+    padding-bottom: 4px;
+    height: 40px;
+}
+
+#home .icon-home {
+    padding-left: 12px!important;
+}
+
+
+/*NRF APP CSS STYLES*/
+
+body {
+    background: #eee;
+}
+
+h1 {
+    color: black;
+}
+
+h2 {
+    color: rgb(67, 68, 72);
+}
+
+.loginPanel {
+    border-color: red!important;
+}
+
+.actionCol a {
+    color: gray;
+}
+
+.pageCol {
+    background-color: white;
+}
+
+
+/*Set toolbar color*/
+
+#loki_toolBar, #loki_toolBar.releaseTier-stage {
+    background: #dddddd;
+    box-shadow: none;
+}
+
+
+/*Turn off testing link on stage*/
+
+#loki_toolBar_testing {
+    display: none;
+}
+
+
+/*Toolbar icon defaults*/
+
+.navbar-default .navbar-text, .navbar .glyphicon, .navbar-default .navbar-nav>li>a {
+    color: #666;
+}
+
+
+/*YUI pages only*/
+
+span[class^='icon-'], a[class*='icon-'], a[class^='icon-'] {
+    color: #666;
+}
+
+
+/*Toolbar brand icon*/
+
+.navbar-header a, .navbar-header, .navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand, .navbar-brand .navbar-nav>li>a:focus, .navbar-brand .navbar-nav>li>a:hover {
+    background-color: #e31b1b!important;
+    font-size: 0px;
+    background-size: 15px;
+}
+
+
+/* Log in page*/
+
+.loginPanel {
+    border: 1px solid red;
+}
+
+.loginPanelLogo {
+    height: 75px;
+    margin-bottom: 20px;
+}
+
+
+/* Nav-less pages*/
+
+.topPanel h1 {
+    color: red;
+}
+
+.topPanel .nav-pills>li.active>a, .topPanel .nav-pills>li.active>a:focus, .topPanel .nav-pills>li.active>a:hover {
+    background-color: red;
+    color: white;
+}
+
+.topPanel .nav-pills>li>a {
+    color: red;
+}
+
+
+/* App logo size/placement, tab margin */
+
+.siteNavigation {
+    margin-top: 5px;
+}
+
+
+/*
+.siteNavigation .level1 {margin-right:2px;}
+*/
+
+.siteNavigation .level1>a {
+    border: 1px solid #dddddd;
+    border-bottom: 0px;
+    color: #333;
+}
+
+.siteNavigation .level1>a:focus, .siteNavigation .level1>a {
+    background-color: #eeeeee;
+}
+
+.siteNavigation .level1.active:hover>a {
+    color: white;
+    background-color: #eeeeee;
+}
+
+.siteNavigation .level1:hover:not(.active) a {
+    color: black;
+    border-color: #ccc;
+    background-color: #eeeeee;
+}
+
+.siteNavigation .nav-tabs li {
+    margin-right: 2px;
+    border-width: 0;
+    font-size: 14px;
+}
+
+.siteNavigation .nav-tabs>li.active>a, .siteNavigation .nav-tabs>li.active>a:hover, .siteNavigation .nav-tabs>li.active>a:focus {
+    background: linear-gradient(rgb(67, 68, 72) 0%, rgb(85, 86, 90) 100%);
+    background-color: rgb(67, 68, 72);
+    border-color: rgb(67, 68, 72);
+}
+
+.subNavigation {
+    border-color: rgb(67, 68, 72);
+}
+
+.subNavigation a {
+    color: white;
+}
+
+loki-sitenavigation .subNavigation, .subNavigation {
+    background: linear-gradient(rgb(85, 86, 90) 0%, rgb(67, 68, 72) 100%);
+    background-color: rgb(67, 68, 72);
+    border-top: 0;
+}
+
+.buttonBar .btn-default:hover, .buttonBar .btn-default:focus {
+    background: linear-gradient(#c51717, #e31b1b);
+    background-color: #e31b1b;
+    color: white;
+    border-color: none;
+}
+
+.buttonBar .btn-default a {
+    color: white;
+    text-shadow: none;
+}
+
+.buttonBar .btn-default a:hover, .buttonBar .btn-default a:focus {
+    text-decoration: none;
+}
+
+
+/*old list page (YUI)*/
+
+.buttonBar .btn-default {
+    background-color: #c51717;
+    color: white;
+    background-image: linear-gradient(#e31b1b, #c51717);
+    background-image: -webkit-linear-gradient(#e31b1b, #c51717);
+    border: none;
+    text-shadow: none;
+}
+
+.buttonBar .nav-pills>li.active>a, .buttonBar .nav-pills>li.active>a:focus, .buttonBar .nav-pills>li.active>a:hover {
+    background-image: linear-gradient(#e31b1b, #c51717);
+    background-image: -webkit-linear-gradient(#e31b1b, #c51717);
+}
+
+.buttonBar .nav>li>a {
+    color: #e31b1b;
+}
+
+.filterPanel .panelTitle span {
+    color: #434448;
+    font-size: 1.2em;
+}
+
+.btn-primary {
+    color: white;
+    background-color: #c51717;
+    background-image: linear-gradient(#e31b1b, #c51717);
+    background-image: -webkit-linear-gradient(#e31b1b, #c51717);
+    border: none;
+    text-shadow: none;
+}
+
+.btn-primary:hover, .btn-primary:focus {
+    background: linear-gradient(#c51717, #e31b1b);
+    background-color: #e31b1b;
+    color: white;
+    border-color: none;
+}
+
+.btn-primary a {
+    color: white;
+    text-shadow: none;
+}
+
+.btn-primary a:hover, .btn-primary a:focus {
+    text-decoration: none;
+}
+
+.filterPanel h2 {
+    color: rgb(67, 68, 72);
+}
+
+.modal-body h2 {
+    color: rgb(67, 68, 72);
+}
+
+.pagination a:link, .pagination a:visited {
+    color: rgb(67, 68, 72);
+}
+
+.pagination .active a {
+    background-color: rgb(67, 68, 72);
+    color: white;
+}
+
+.dataTable {
+    border-color: #f0f0f1;
+}
+
+.dataTable thead {
+    /*background-color:rgb(67, 68, 72);*/
+    border-color: #f0f0f1;
+    background-color: #f0f0f1;
+    color: black;
+}
+
+.dataTable th {
+    border-color: #f0f0f1;
+    background-color: #f0f0f1;
+    padding: 5px;
+}
+
+.dataTable th a {
+    color: black;
+}
+
+.dataTable tr td {
+    border-color: #f0f0f1;
+}
+
+.dataTable td.selectCol, .dataTable th.selectCol {
+    /*border-color:#f0f0f1;*/
+    background: #f0f0f1;
+}
+
+.dataTable th.sortable {
+    padding: 0 5px;
+}
+
+.dataTable td {
+    border-color: #f0f0f1
+}
+
+.tile-title {
+    color: red;
+}
+
+.tile:hover {
+    border-color: red;
+}
+
+.tile:hover .top-triangle {
+    border-top-color: red;
+    border-left-color: red;
+}
+
+.tile:hover .bottom-triangle {
+    border-right-color: red;
+    border-bottom-color: red;
+}
+
+.tile:hover .tile-text-section, .tile:hover .tile-footer {
+    background-color: #fff5f4;
+}
+
+.pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover {
+    background: rgb(67, 68, 72);
+    border: rgb(67, 68, 72);
+}
+
+.pagination>li>a, .pagination>li>span {
+    color: rgb(67, 68, 72);
+}
+
+
+/* App Nav tabs config */
+
+.siteNavigation #home a {
+    padding-top: 6px;
+    padding-bottom: 4px;
+}
+
+#home a:hover, #home a {
+    padding-left: 0px;
+    /*color:#333; */
+    border: 0px;
+    margin-left: 0px;
+    padding-bottom: 4px;
+    height: 40px;
+}
+
+#home .icon-home {
+    padding-left: 12px!important;
+}
+
+.sd-footer, .lr-footer {
+    border-color: red;
+}
+
+.footer {
+    border-top: 2px solid rgb(67, 68, 72);
+}
