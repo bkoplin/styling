@@ -92,15 +92,16 @@ body {
 }
 
 h1 {
-    color: black;
+    color: rgb(221, 39, 32);
 }
 
-h2 {
-    color: rgb(67, 68, 72);
+h3 {
+    color: rgb(221, 39, 32);
+    font-size: 1.2em;
 }
 
 .loginPanel {
-    border-color: red!important;
+    border-color: rgb(221, 39, 32) !important;
 }
 
 .actionCol a {
@@ -144,7 +145,7 @@ span[class^='icon-'], a[class*='icon-'], a[class^='icon-'] {
 /*Toolbar brand icon*/
 
 .navbar-header a, .navbar-header, .navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand, .navbar-brand .navbar-nav>li>a:focus, .navbar-brand .navbar-nav>li>a:hover {
-    background-color: #e31b1b!important;
+    background-color: #DD2720 !important;
     font-size: 0px;
     background-size: 15px;
 }
@@ -153,7 +154,7 @@ span[class^='icon-'], a[class*='icon-'], a[class^='icon-'] {
 /* Log in page*/
 
 .loginPanel {
-    border: 1px solid red;
+    border: 1px solid rgb(221, 39, 32);
 }
 
 .loginPanelLogo {
@@ -165,16 +166,16 @@ span[class^='icon-'], a[class*='icon-'], a[class^='icon-'] {
 /* Nav-less pages*/
 
 .topPanel h1 {
-    color: red;
+    color: rgb(221, 39, 32);
 }
 
 .topPanel .nav-pills>li.active>a, .topPanel .nav-pills>li.active>a:focus, .topPanel .nav-pills>li.active>a:hover {
-    background-color: red;
+    background-color: rgb(221, 39, 32);
     color: white;
 }
 
 .topPanel .nav-pills>li>a {
-    color: red;
+    color: rgb(221, 39, 32);
 }
 
 
@@ -237,8 +238,8 @@ loki-sitenavigation .subNavigation, .subNavigation {
 }
 
 .buttonBar .btn-default:hover, .buttonBar .btn-default:focus {
-    background: linear-gradient(#c51717, #e31b1b);
-    background-color: #e31b1b;
+    background: linear-gradient(#c90c00, #DD2720);
+    background-color: #DD2720;
     color: white;
     border-color: none;
 }
@@ -256,21 +257,21 @@ loki-sitenavigation .subNavigation, .subNavigation {
 /*old list page (YUI)*/
 
 .buttonBar .btn-default {
-    background-color: #c51717;
+    background-color: #c90c00;
     color: white;
-    background-image: linear-gradient(#e31b1b, #c51717);
-    background-image: -webkit-linear-gradient(#e31b1b, #c51717);
+    background-image: linear-gradient(#DD2720, #c90c00);
+    background-image: -webkit-linear-gradient(#DD2720, #c90c00);
     border: none;
     text-shadow: none;
 }
 
 .buttonBar .nav-pills>li.active>a, .buttonBar .nav-pills>li.active>a:focus, .buttonBar .nav-pills>li.active>a:hover {
-    background-image: linear-gradient(#e31b1b, #c51717);
-    background-image: -webkit-linear-gradient(#e31b1b, #c51717);
+    background-image: linear-gradient(#DD2720, #c90c00);
+    background-image: -webkit-linear-gradient(#DD2720, #c90c00);
 }
 
 .buttonBar .nav>li>a {
-    color: #e31b1b;
+    color: #DD2720;
 }
 
 .filterPanel .panelTitle span {
@@ -280,16 +281,16 @@ loki-sitenavigation .subNavigation, .subNavigation {
 
 .btn-primary {
     color: white;
-    background-color: #c51717;
-    background-image: linear-gradient(#e31b1b, #c51717);
-    background-image: -webkit-linear-gradient(#e31b1b, #c51717);
+    background-color: #c90c00;
+    background-image: linear-gradient(#DD2720, #c90c00);
+    background-image: -webkit-linear-gradient(#DD2720, #c90c00);
     border: none;
     text-shadow: none;
 }
 
 .btn-primary:hover, .btn-primary:focus {
-    background: linear-gradient(#c51717, #e31b1b);
-    background-color: #e31b1b;
+    background: linear-gradient(#c90c00, #DD2720);
+    background-color: #DD2720;
     color: white;
     border-color: none;
 }
@@ -359,21 +360,21 @@ loki-sitenavigation .subNavigation, .subNavigation {
 }
 
 .tile-title {
-    color: red;
+    color: rgb(221, 39, 32);
 }
 
 .tile:hover {
-    border-color: red;
+    border-color: rgb(221, 39, 32);
 }
 
 .tile:hover .top-triangle {
-    border-top-color: red;
-    border-left-color: red;
+    border-top-color: rgb(221, 39, 32);
+    border-left-color: rgb(221, 39, 32);
 }
 
 .tile:hover .bottom-triangle {
-    border-right-color: red;
-    border-bottom-color: red;
+    border-right-color: rgb(221, 39, 32);
+    border-bottom-color: rgb(221, 39, 32);
 }
 
 .tile:hover .tile-text-section, .tile:hover .tile-footer {
@@ -411,7 +412,7 @@ loki-sitenavigation .subNavigation, .subNavigation {
 }
 
 .sd-footer, .lr-footer {
-    border-color: red;
+    border-color: rgb(221, 39, 32);
 }
 
 .footer {
