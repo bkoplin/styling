@@ -53,6 +53,7 @@
         border-bottom: 1px solid rgba(0, 0, 0, 0.1);
     }
 }
+
 .siteNavigation {
     margin-top: 5px;
     margin-top: 5px;
@@ -413,14 +414,14 @@ loki-sitenavigation {
     .btn-default {
         &:hover {
             background-color: #c90c00 !important;
-            border-color: #900000 !important;
+            border-color: #ac0000 !important;
             color: @color_4;
             background-image: none!;
         }
 
         &:focus {
             background-color: #c90c00 !important;
-            border-color: #900000 !important;
+            border-color: #ac0000 !important;
             color: @color_4;
             background-image: none!;
         }
@@ -441,7 +442,7 @@ loki-sitenavigation {
             }
         }
         background-color: #DD2720 !important;
-        border-color: #a30000 !important;
+        border-color: #c0000a !important;
         color: @color_4;
         background-image: none;
     }
@@ -458,18 +459,18 @@ loki-sitenavigation {
             > a {
                 color: @color_4;
                 background-color: #DD2720 !important;
-                border-color: #a30000 !important;
+                border-color: #c0000a !important;
 
                 &:focus {
                     color: @color_4;
                     background-color: #DD2720 !important;
-                    border-color: #a30000 !important;
+                    border-color: #c0000a !important;
                 }
 
                 &:hover {
                     color: @color_4;
                     background-color: #DD2720 !important;
-                    border-color: #a30000 !important;
+                    border-color: #c0000a !important;
                 }
             }
         }
@@ -485,7 +486,121 @@ loki-sitenavigation {
 }
 
 .btn-toolbar {
-    .buttonBar
+    .btn-primary {
+        &:hover {
+            background-color: #c90c00 !important;
+            border-color: #ac0000 !important;
+            color: @color_4;
+            background-image: none!;
+        }
+
+        &:focus {
+            background-color: #c90c00 !important;
+            border-color: #ac0000 !important;
+            color: @color_4;
+            background-image: none!;
+        }
+
+        a {
+            color: @color_4;
+            text-shadow: none;
+            background-image: none!;
+
+            &:hover {
+                text-decoration: none;
+                background-image: none!;
+            }
+
+            &:focus {
+                text-decoration: none;
+                background-image: none!;
+            }
+        }
+        background-color: #DD2720 !important;
+        border-color: #c0000a !important;
+        color: @color_4;
+        background-image: none;
+    }
+
+    .btn-primary[disabled] {
+        background-color: #e0e0e0;
+        border-color: #ccc;
+        color: @color_4;
+        background-image: none!;
+    }
+
+    .nav-pills {
+        > li.active {
+            > a {
+                color: @color_4;
+                background-color: #DD2720 !important;
+                border-color: #c0000a !important;
+
+                &:focus {
+                    color: @color_4;
+                    background-color: #DD2720 !important;
+                    border-color: #c0000a !important;
+                }
+
+                &:hover {
+                    color: @color_4;
+                    background-color: #DD2720 !important;
+                    border-color: #c0000a !important;
+                }
+            }
+        }
+    }
+
+    .nav {
+        > li {
+            > a {
+                color: @color_7;
+            }
+        }
+    }
+}
+
+.middle-button.btn-primary {
+    &:hover {
+        background-color: #c90c00 !important;
+        border-color: #ac0000 !important;
+        color: @color_4;
+        background-image: none!;
+    }
+
+    &:focus {
+        background-color: #c90c00 !important;
+        border-color: #ac0000 !important;
+        color: @color_4;
+        background-image: none!;
+    }
+
+    a {
+        color: @color_4;
+        text-shadow: none;
+        background-image: none!;
+
+        &:hover {
+            text-decoration: none;
+            background-image: none!;
+        }
+
+        &:focus {
+            text-decoration: none;
+            background-image: none!;
+        }
+    }
+    background-color: #DD2720 !important;
+    border-color: #c0000a !important;
+    color: @color_4;
+    background-image: none;
+}
+
+.middle-button.btn-primary[disabled] {
+    background-color: #e0e0e0;
+    border-color: #ccc;
+    color: @color_4;
+    background-image: none!;
 }
 
 .filterPanel {
@@ -502,9 +617,9 @@ loki-sitenavigation {
 }
 
 .btn-primary {
-    color: @color_4;
-    background-color: #DD2720;
-    border-color: #a30000;
+    color: #fff;
+    background-color: #337ab7;
+    border-color: #2e6da4;
     text-shadow: none;
     text-shadow: none;
     -webkit-box-shadow: none;
@@ -514,15 +629,17 @@ loki-sitenavigation {
     background-repeat: repeat-x;
 
     &:hover {
-        background-color: #c90c00;
-        border-color: #900000;
+        color: #fff;
+        background-color: #286090;
+        border-color: #204d74;
         color: @color_4;
         background-position: 0 -15px;
     }
 
     &:focus {
-        background-color: #c90c00;
-        border-color: #900000;
+        color: #fff;
+        background-color: #286090;
+        border-color: #204d74;
         color: @color_4;
         background-position: 0 -15px;
     }
@@ -543,8 +660,9 @@ loki-sitenavigation {
     &:active {
         -webkit-box-shadow: none;
         box-shadow: none;
-        background-color: #c90c00;
-        border-color: #900000;
+        color: #fff;
+        background-color: #286090;
+        border-color: #204d74;
     }
 
     .badge {
@@ -552,9 +670,9 @@ loki-sitenavigation {
     }
 
     &:disabled {
-      background-color: #e0e0e0;
-    background-image: none;
-    border-color: #ccc;
+        background-color: #e0e0e0;
+        background-image: none;
+        border-color: #ccc;
         background-image: none;
     }
 }
