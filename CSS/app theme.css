@@ -19,7 +19,7 @@
 
 .siteNavigation .level1>a {
     border: 1px solid #dddddd;
-    border-bottom: 0px;
+    border-bottom: 0;
     color: #333;
     background-color: #eeeeee
 }
@@ -92,17 +92,17 @@
 }
 
 #home a {
-    padding-left: 0px;
-    border: 0px;
-    margin-left: 0px;
+    padding-left: 0;
+    border: 0;
+    margin-left: 0;
     padding-bottom: 4px;
     height: 40px
 }
 
 #home a:hover {
-    padding-left: 0px;
-    border: 0px;
-    margin-left: 0px;
+    padding-left: 0;
+    border: 0;
+    margin-left: 0;
     padding-bottom: 4px;
     height: 40px
 }
@@ -193,13 +193,13 @@ h3 {
 
 .navbar>.container .navbar-brand {
     background-color: #DD2720 !important;
-    font-size: 0px;
+    font-size: 0;
     background-size: 15px
 }
 
 .navbar>.container-fluid .navbar-brand {
     background-color: #DD2720 !important;
-    font-size: 0px;
+    font-size: 0;
     background-size: 15px
 }
 
@@ -217,13 +217,13 @@ a[class^='icon-'] {
 
 .navbar-header {
     background-color: #DD2720 !important;
-    font-size: 0px;
+    font-size: 0;
     background-size: 15px
 }
 
 .navbar-header a {
     background-color: #DD2720 !important;
-    font-size: 0px;
+    font-size: 0;
     background-size: 15px
 }
 
@@ -233,13 +233,13 @@ a[class^='icon-'] {
 
 .navbar-brand .navbar-nav>li>a:focus {
     background-color: #DD2720 !important;
-    font-size: 0px;
+    font-size: 0;
     background-size: 15px
 }
 
 .navbar-brand .navbar-nav>li>a:hover {
     background-color: #DD2720 !important;
-    font-size: 0px;
+    font-size: 0;
     background-size: 15px
 }
 
@@ -288,70 +288,134 @@ loki-sitenavigation .subNavigation {
     border-top: 0
 }
 
-.buttonBar .btn-default {
-    background-color: #DD2720;
-    border-color: #a30000;
+.btn-primary.middle-button {
+    background-color: #dd2720;
+    border-color: #c7231d;
     color: #fff;
     background-image: none
 }
 
-.buttonBar .btn-default:hover {
-    background-color: #c90c00;
-    border-color: #900000;
+.btn-primary.middle-button:hover {
+    background-color: #b01f1a;
+    border-color: #9a1b16;
     color: #fff;
-    background-image: none!
+    background-image: none !important
 }
 
-.buttonBar .btn-default:focus {
-    background-color: #c90c00;
-    border-color: #900000;
+.btn-primary.middle-button:focus {
+    background-color: #c7231d;
+    border-color: #b01f1a;
     color: #fff;
-    background-image: none!
+    background-image: none !important
 }
 
-.buttonBar .btn-default a {
+.btn-primary.middle-button .active {
+    background-color: #c7231d;
+    border-color: #b01f1a;
+    color: #fff;
+    background-image: none !important
+}
+
+.btn-primary.middle-button a {
     color: #fff;
     text-shadow: none;
-    background-image: none!
+    background-image: none !important
 }
 
-.buttonBar .btn-default a:hover {
+.btn-primary.middle-button a:hover {
     text-decoration: none;
-    background-image: none!
+    background-image: none !important
 }
 
-.buttonBar .btn-default a:focus {
+.btn-primary.middle-button a:focus {
     text-decoration: none;
-    background-image: none!
+    background-image: none !important
+}
+
+.btn-primary.middle-button[disabled] {
+    opacity: 0.65;
+    background-image: none !important
+}
+
+.buttonBar .btn-default, .buttonBar .btn-primary {
+    background-color: #dd2720;
+    border-color: #c7231d;
+    color: #fff;
+    background-image: none
+}
+
+.buttonBar .btn-default:hover, .buttonBar .btn-primary:hover {
+    background-color: #b01f1a;
+    border-color: #9a1b16;
+    color: #fff;
+    background-image: none !important
+}
+
+.buttonBar .btn-default:focus, .buttonBar .btn-primary:focus {
+    background-color: #c7231d;
+    border-color: #b01f1a;
+    color: #fff;
+    background-image: none !important
+}
+
+.buttonBar .btn-default .active, .buttonBar .btn-primary .active {
+    background-color: #c7231d;
+    border-color: #b01f1a;
+    color: #fff;
+    background-image: none !important
+}
+
+.buttonBar .btn-default a, .buttonBar .btn-primary a {
+    color: #fff;
+    text-shadow: none;
+    background-image: none !important
+}
+
+.buttonBar .btn-default a:hover, .buttonBar .btn-primary a:hover {
+    text-decoration: none;
+    background-image: none !important
+}
+
+.buttonBar .btn-default a:focus, .buttonBar .btn-primary a:focus {
+    text-decoration: none;
+    background-image: none !important
+}
+
+.buttonBar .btn-primary[disabled] {
+    opacity: 0.65;
+    background-image: none !important
 }
 
 .buttonBar .btn-default[disabled] {
-    background-color: #e0e0e0;
-    border-color: #ccc;
-    color: #fff;
-    background-image: none!
+    opacity: 0.65;
+    background-image: none !important;
+    border-color: #bfbfbf
 }
 
 .buttonBar .nav-pills>li.active>a {
+    background-color: #dd2720;
+    border-color: #c7231d;
     color: #fff;
-    background-color: #DD2720;
-    border-color: #a30000
-}
-
-.buttonBar .nav-pills>li.active>a:focus {
-    color: #fff;
-    background-color: #DD2720;
-    border-color: #a30000
+    background-image: none !important
 }
 
 .buttonBar .nav-pills>li.active>a:hover {
+    background-color: #c7231d;
+    border-color: #b01f1a;
     color: #fff;
-    background-color: #DD2720;
-    border-color: #a30000
+    background-image: none !important
+}
+
+.buttonBar .nav-pills>li.active>a:focus {
+    background-color: #c7231d;
+    border-color: #b01f1a;
+    color: #fff;
+    background-image: none !important
 }
 
 .buttonBar .nav>li>a {
-    color: #dd2720
+    color: #dd2720;
+    border-color: #dd2720
 }
 
 .filterPanel .panelTitle span {
