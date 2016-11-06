@@ -8083,12 +8083,12 @@
     }
 
     .button.fill-red.active {
-        background-color: #ff6e7f;
+        background-color: darken(@color_2, 5%);;
     }
 
     .button.fill-red {
         &:hover {
-            background-color: #ff6e7f;
+            background-color: darken(@color_2, 5%);;
         }
     }
 
@@ -8709,22 +8709,22 @@
     .fill-red {
         .pill {
             > * {
-                background-color: #e55e5e;
+                background-color: @color_2;
             }
         }
 
         .rounded-toggle {
             input[type=radio] {
                 &:checked&+label {
-                    background-color: #e55e5e;
+                    background-color: @color_2;
                 }
             }
 
             .active {
-                background-color: #e55e5e;
+                background-color: @color_2;
             }
         }
-        background-color: #e55e5e;
+        background-color: @color_2;
     }
 
     .fill-teal {
