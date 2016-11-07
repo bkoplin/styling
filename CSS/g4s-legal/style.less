@@ -164,15 +164,25 @@
 }
 // #_presentation_custom_results {
 
-.nav-tabs>:not(.tabListPanel) {
-    li, li.active {
+.swal2-spacer {
+    background: transparent !important;
+}
+
+#_presentation_custom_results .nav-tabs {
+    li,
+    li.active {
         a {
             color: @color_2;
 
             &:hover {
                 border-color: #ddd !important;
             }
+        }
+    }
 
+    li.disabled {
+        a {
+            color: #ddd;
         }
     }
 }
@@ -7140,7 +7150,7 @@ textarea {
     }
 
     hr {
-        background: rgba(255, 255, 255, .05);
+        // background: rgba(255, 255, 255, .05);
     }
 
     kbd {
@@ -9058,7 +9068,7 @@ hr {
     border: 0;
     height: 1px;
     background: #f8f8f8;
-    background: rgba(0, 0, 0, .05);
+    // background: rgba(0, 0, 0, .05);
 }
 
 .code {
