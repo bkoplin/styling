@@ -2535,9 +2535,6 @@ h1.sub-section {
 .popover-content {
   padding: 5px 10px;
 }
-.select2-search__field {
-  width: 100%;
-}
 .dropdown-header {
   padding: 10px 0 0;
   font-size: 14px;
@@ -2547,9 +2544,6 @@ h1.sub-section {
 }
 a.btn-default {
   color: #000 !important;
-}
-.select2-container--bootstrap .select2-selection--multiple .select2-search--inline .select2-search__field {
-  min-width: 600px !important;
 }
 .select2-container--bootstrap .select2-selection--multiple .select2-selection__rendered {
   -webkit-box-sizing: border-box;
