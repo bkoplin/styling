@@ -12544,12 +12544,17 @@ h6.micro {
     .generate-columns(12);
 
     .generate-columns(@n, @i:1) when (@i =< @n) {
+        @margin: 9px;
+
         .card@{i} {
+            @pctWidth: (@i * 100% / @n);
+            @pixelWidth: (@i * 1200 / @n);
             .card;
-            width: (@i * 100% / @n) - 18px;
-            max-width: (@i * 1200px / @n);
+            width: calc(~'@{pctWidth} - @{margin}');
+            max-width: calc(~'@{pixelWidth} - @{margin}');
+
             &.unlimiter {
-              max-width: none;
+                max-width: none;
             }
         }
         .generate-columns(@n, (@i + 1));
