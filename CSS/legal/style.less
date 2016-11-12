@@ -12399,23 +12399,6 @@ h6.micro {
     margin-right: auto;
 }
 
-.card {
-    display: inline-block;
-    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14),0 3px 1px -2px rgba(0,0,0,0.12),0 1px 5px 0 rgba(0,0,0,0.2);
-    vertical-align: top;
-}
-
-.card-row (@flex) {
-
-    > .card {
-        margin-right: 18px;
-        display: inline-flex;
-        :not(:last-of-type) {
-            margin-right: 0;
-        }
-    }
-}
-
 .col0 {
     float: left;
     width: 4.1666%;
@@ -12547,6 +12530,28 @@ h6.micro {
 
     .col11 {
         max-width: none;
+    }
+}
+
+.card {
+    display: inline-block;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14),0 3px 1px -2px rgba(0,0,0,0.12),0 1px 5px 0 rgba(0,0,0,0.2);
+    vertical-align: top;
+}
+
+.card-row {
+    .flex (flex);
+    .flex-align-content (start);
+    .flex-justify-content (space-between);
+    .generate-columns(12);
+
+    .generate-columns(@n, @i:1) when (@i =< @n) {
+        .card@{i} {
+            .card;
+            width: (@i * 100% / @n) - 18px;
+            max-width: (@i * 100% / @n);
+        }
+        .generate-columns(@n, (@i + 1));
     }
 }
 
