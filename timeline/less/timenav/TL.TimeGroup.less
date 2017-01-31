@@ -7,9 +7,9 @@
 	position:absolute;
 	top:0;
 	left:0;
-	
+
 	background-color:@ui-background-color;
-	
+
 	display: -ms-flexbox;
 	display: -webkit-flex;
 	display: flex;
@@ -17,18 +17,18 @@
 	-ms-flex-align: center;
 	-webkit-align-items: center;
 	-webkit-box-align: center;
-	
 
-	
+
+
 	.tl-timegroup-message {
 		//z-index:6;
-		color:darken(@ui-background-color-darker,2);
+		color:darken(@ui-background-color-darker,20%);
 		text-shadow: @color-background 0px 2px 2px;
 		margin-left:80px;
 		//background-color:@ui-background-color;
-		
+
 	}
-	
+
 	&.tl-timegroup-alternate {
 		background-color:lighten(@ui-background-color,3);
 		.tl-timegroup-message {
@@ -38,7 +38,7 @@
 	&.tl-timegroup-hidden {
 		display:none;
 	}
-	
+
 	/* Animate Left Width and Top
 	================================================== */
 	.property-animation(left, @animation-duration, @animation-ease);
@@ -46,7 +46,7 @@
 	.property-animation(height, @animation-duration-fast, @animation-ease);
 	.property-animation(width, @animation-duration, @animation-ease);
 	.animation-timing-cubic-bezier();
-	
+
 }
 
 /* Skinny
